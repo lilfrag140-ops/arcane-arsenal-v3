@@ -1,0 +1,37 @@
+project_id = "nkjosjigixkhkgadizqr"
+
+[functions."chat-with-ai"]
+verify_jwt = true
+
+[functions."create-crypto-checkout"]
+verify_jwt = true
+
+[functions."create-crypto-checkout-enhanced"]
+verify_jwt = true
+
+[functions."crypto-monitor"]
+verify_jwt = false
+
+[functions."crypto-monitor-enhanced"]
+verify_jwt = false
+
+[functions."crypto-status"]
+verify_jwt = true
+
+[functions."crypto-status-enhanced"]
+verify_jwt = true
+
+[functions."create-paypal-checkout"]
+verify_jwt = true
+
+[functions."discord-order-notification"]
+verify_jwt = false
+
+[functions."test-discord-webhook"]
+verify_jwt = false
+
+[functions."create-tebex-checkout"]
+verify_jwt = true
+
+[functions."tebex-webhook"]
+verify_jwt = false
